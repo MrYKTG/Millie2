@@ -611,7 +611,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('× ΔĐĐ Μ€ ŦØ ¥ØỮŘ ǤŘØỮƤŞ ×', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton('🔍 Ş€ΔŘĆĦ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('♚ Bᴏᴛ Oᴡɴᴇʀ', callback_data='owner_info')
+            InlineKeyboardButton('CREDITS', callback_data='credits')
         ], [
             InlineKeyboardButton('Ħ€ŁƤ', callback_data='help'),
             InlineKeyboardButton('ΔβØỮŦ', callback_data='about')
